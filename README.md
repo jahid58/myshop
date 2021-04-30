@@ -1,4 +1,5 @@
-Amazon clone (04/2021 )
+Amazon clone (04/2021 )    
+
 This is a React js project using node js for back end, firebase for authentication and   hosting, heroku for server site hosting and stripe.js for payment.
 Live site : https://amzon-clone-9102e.web.app/ 
 
