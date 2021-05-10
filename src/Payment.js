@@ -1,15 +1,16 @@
 import React from "react";
 import CurrencyFormat from "react-currency-format";
-import { Link } from "react-router-dom";
+import ProcessPayment from "./PocessPayment";
 import { getBasketTotal } from "./reducer";
 import { useStateValue } from "./StateProvider";
-import "./Subtotal.css";
 
-const Subtotal = () => {
+const Payment = () => {
   const [{ basket }, dispatch] = useStateValue();
-
   return (
-    <div className="subtotal">
+    <div
+      className="bg-light rounded shadow text-center m-auto mt-5 p-5"
+      style={{ width: "300px", height: "300px" }}
+    >
       <CurrencyFormat
         value={getBasketTotal(basket)}
         displayType={"text"}
@@ -21,19 +22,12 @@ const Subtotal = () => {
             <p>
               Subtotal ({basket.length} items):<strong>{value}</strong>{" "}
             </p>
-            <small className="subtotal__gift">
-              <input type="checkbox" />
-              This order contains a gift
-            </small>
           </div>
         )}
       />
-      <Link to="/payment">
-        {" "}
-        <button className="subtotal__button">Proceed to checkout</button>
-      </Link>
+      <ProcessPayment></ProcessPayment>
     </div>
   );
 };
 
-export default Subtotal;
+export default Payment;

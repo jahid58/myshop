@@ -1,6 +1,5 @@
 import React from "react";
 import "./Product.css";
-import product1 from "./images/logo.png";
 import { Star } from "@material-ui/icons";
 import { useStateValue } from "./StateProvider";
 
