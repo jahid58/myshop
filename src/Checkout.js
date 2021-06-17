@@ -1,5 +1,5 @@
 import React from "react";
-import add__img from "./images/add-image.jpg";
+import add__img from "./images/logo.png";
 import "./Checkout.css";
 import { Link } from "react-router-dom";
 import Subtotal from "./Subtotal";

@@ -3,7 +3,7 @@ import firebase from "firebase/app";
 import "firebase/auth";
 import { useHistory, useLocation } from "react-router-dom";
 import firebaseConfig from "./firebaseConfig";
-import logo from "./images/u.jpg";
+import logo from "./images/logo.png";
 import { useStateValue } from "./StateProvider";
 
 const Login = () => {
@@ -46,7 +46,7 @@ const Login = () => {
       <div className="shadow p-5 text-center rounded bg-white m-5">
         {" "}
         <img src={logo} style={{ width: "120px" }} alt="" />
-        <h3> Login With </h3>
+        <h3> Login </h3>
         <button className="btn btn-secondary " onClick={handleGoogleSignIn}>
           Continue with Google
         </button>

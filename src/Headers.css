@@ -12,6 +12,7 @@
   height: 50px;
   object-fit: contain;
   margin: auto 20px;
+  background-color: black;
 }
 .header_search {
   display: flex;
@@ -25,7 +26,7 @@
   width: 100%;
 }
 .header_searchIcon {
-  background-color: rgb(190, 137, 38);
+  background-color: rgb(62, 128, 133);
   padding: 5px;
   height: 35px i !important;
 }

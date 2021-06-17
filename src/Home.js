@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Loader from "react-loader-spinner";
 import "./Home.css";
-import homeThumbnail from "./images/home_thumbnail.png";
+
 import MyCarousel from "./MyCarousel";
 import Product from "./Product";
 const Home = () => {

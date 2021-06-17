@@ -52,7 +52,8 @@ const SplitForm = () => {
     });
 
     if (payload.paymentMethod) {
-      history.push("/home");
+      history.push("/");
+      alert("payment successful");
     } else {
       setError(payload.error.message);
     }

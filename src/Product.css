@@ -7,7 +7,7 @@
   padding: 20px;
   max-width: 350px;
   min-width: 100px;
-  background-color: rgb(238, 234, 234);
+  background-color: rgb(198, 212, 199);
   z-index: 1;
 }
 .product > img {
@@ -20,7 +20,7 @@
   background-color: yellowgreen;
   border: 1px solid;
   margin-top: 10px;
-  border-color: #a88734;
+  border-color: #608654;
   color: #111;
 }
 .product_price {
@@ -33,5 +33,5 @@
 .product_rating {
   width: 100%;
   display: flex;
-  color: rgb(180, 180, 16);
+  color: rgb(40, 82, 51);
 }

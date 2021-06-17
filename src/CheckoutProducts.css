@@ -12,10 +12,10 @@
 }
 .checkoutProduct__rating {
   display: flex;
-  color: yellow;
+  color: rgb(80, 80, 8);
 }
 .checkoutProduct__info > button {
-  background-color: #e4b234;
+  background-color: #79ac5b;
   border: 1px solid;
   margin-top: 10px;
   padding: 3px;
